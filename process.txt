@@ -1,0 +1,3 @@
+install sanity tools for nextjs  yarn add next-sanity @portabletext/react @sanity/image-url
+get config frm the github documentation
+ON SANITY WEBSITE,GET UR TOKEN AND CREATE AN API KEY
