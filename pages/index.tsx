@@ -7,15 +7,16 @@ import { Widgets } from '../components/Widgets'
 
 const Home: NextPage = () => {
   return (
-    <div className=''>
+    <div className='mx-auto max-h-screen lg:max-w-6xl'>
       <Head>
         <title>Twitter 3.0 by akpevwe</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+<main className="grid grid-cols-9">
       <Sidebar />
       <Feed />
-      <Widgets/>
+        <Widgets />
+        </main>
     </div>
   )
 }
